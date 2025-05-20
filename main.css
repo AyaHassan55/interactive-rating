@@ -4,10 +4,10 @@
 body{
     font-family: 'Overpass', sans-serif;
     background-color: hsl(216, 12%, 8%); 
-    height: 100vh;
+    
 }
 .background{
-
+height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,12 +23,26 @@ body{
     
 
 }
-.card img{
+.star-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsla(213deg 15.36% 25.1%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.star-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+/* .card img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color:hsla(213deg 15.36% 25.1%);
-}
+} */
 .card h1{
     color: hsl(0, 100%, 100%);
     font-size:27px;
