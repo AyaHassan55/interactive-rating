@@ -1,0 +1,76 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%); 
+    height: 100vh;
+}
+.background{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+    display: inline-block;
+    background-color: hsl(213, 19%, 18%);
+    padding: 5rem 2rem;
+    border-radius: 20px;
+    width: 319px;
+    margin:0 auto;
+    
+
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:hsla(213deg 15.36% 25.1%);
+}
+.card h1{
+    color: hsl(0, 100%, 100%);
+    font-size:27px;
+}
+.card p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+.rating-container{
+    list-style: none;
+    color: hsl(217, 12%, 63%);
+}
+.rating-nums{
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+.rating-nums li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsla(213deg 15.36% 25.1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.rating-nums li:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(213, 19%, 18%);
+}
+button{
+    border: none;
+    
+    padding: 10px 26px;
+    margin-top: 24px;
+    border-radius: 23px;
+    background-color: hsl(25, 97%, 53%);
+    /* font-family: "Overpass",sans-serif; */
+    color:hsl(213, 19%, 18%);
+    width: 100%;
+}
